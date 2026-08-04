@@ -1,3 +1,6 @@
+body{
+   max-width: 100vw;
+}
 header{
             background-color: #FBFFAC;
             color:#EC86D4
@@ -15,6 +18,14 @@ header{
      }
      article{
       display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgb(255, 10, 202);
+      margin: 16px;
+      gap: 16px;
+      padding: 16px;
+      flex: 1 1 25%
      }
      img{
         width: 80px;
